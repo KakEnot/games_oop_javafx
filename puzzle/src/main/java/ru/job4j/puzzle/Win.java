@@ -3,14 +3,14 @@ package ru.job4j.puzzle;
 public class Win {
 
     public static boolean check(int[][] board) {
-        boolean rsl = false;
+        boolean resalt = false;
         for (int i = 0; i < board.length; i++) {
-            rsl = checkHorizontal(board, i) || checkVertical(board, i);
-            if (rsl) {
+            resalt = checkHorizontal(board, i) || checkVertical(board, i);
+            if (resalt) {
                 break;
             }
         }
-        return rsl;
+        return resalt;
     }
 
     public static boolean checkHorizontal(int[][] board, int row) {
