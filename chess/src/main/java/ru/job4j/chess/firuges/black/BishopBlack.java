@@ -30,7 +30,6 @@ public class BishopBlack implements Figure {
         int deltaX = this.position.getX() - dest.getX() > 0 ? -1 : 1;
         int deltaY = this.position.getY() - dest.getY() > 0 ? -1 : 1;
 
-
         int x = this.position.getX();
         int y = this.position.getY();
 
